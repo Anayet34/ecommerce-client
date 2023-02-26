@@ -4,7 +4,7 @@ const orderService = createApi({
   reducerPath: "orders",
   tagTypes: "orders",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api/",
+    baseUrl: "https://elegant-tan-hoodie.cyclic.app/",
     prepareHeaders: (headers, { getState }) => {
       const reducers = getState();
       const token = reducers?.authReducer?.adminToken;
