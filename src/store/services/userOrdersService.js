@@ -4,7 +4,7 @@ const userOrdersService = createApi({
   reducerPath: "user-orders",
   tagTypes: "orders",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://elegant-tan-hoodie.cyclic.app/api/",
+    baseUrl: "https://victorious-gold-dirndl.cyclic.app/api/",
     prepareHeaders: (headers, { getState }) => {
       const reducers = getState();
       const token = reducers?.authReducer?.userToken;
